@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The aospOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_d2s.mk
+    $(LOCAL_DIR)/aosp_d2s.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_d2s-eng \
-    lineage_d2s-user \
-    lineage_d2s-userdebug
+    aosp_d2s-eng \
+    aosp_d2s-user \
+    aosp_d2s-userdebug
