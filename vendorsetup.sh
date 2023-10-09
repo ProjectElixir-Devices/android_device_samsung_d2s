@@ -19,7 +19,7 @@ git clone https://github.com/ProjectElixir-Devices/android_device_samsung_d2s de
 echo 'Cloning Vendor Trees [4/7]'
 # Vendor blobs for d2s
 rm -rf vendor/samsung/d2s
-git clone https://github.com/linux4-bringup-priv/android_vendor_samsung_d2s -b lineage-21.0 vendor/samsung/d2s
+git clone https://github.com/linux4-bringup-priv/android_vendor_samsung_d2s -b lineage-20.0 vendor/samsung/d2s
 rm -rf vendor/samsung/exynos9820-common
 git clone https://github.com/linux4-bringup-priv/android_vendor_samsung_exynos9820-common -b lineage-21.0 vendor/samsung/exynos9820-common
 
@@ -41,6 +41,7 @@ git clone https://github.com/linux4-bringup-priv/android_hardware_samsung_slsi-l
 git clone https://github.com/linux4-bringup-priv/android_hardware_samsung_slsi-linaro_exynos.git -b lineage-21.0 hardware/samsung_slsi-linaro/exynos
 git clone https://github.com/linux4-bringup-priv/android_hardware_samsung_slsi-linaro_openmax.git -b lineage-21.0 hardware/samsung_slsi-linaro/openmax
 git clone https://github.com/linux4-bringup-priv/android_hardware_samsung_slsi-linaro_exynos5.git -b lineage-21.0 hardware/samsung_slsi-linaro/exynos5
+git clone https://github.com/linux4-bringup-priv/android_hardware_samsung_slsi-linaro_interfaces.git -b lineage-21.0 hardware/samsung_slsi-linaro/interfaces
 
 echo 'Cloning Sepolicy Dependency repo [7/7]'
 # Sepolicy
