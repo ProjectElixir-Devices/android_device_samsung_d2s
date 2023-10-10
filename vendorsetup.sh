@@ -33,7 +33,7 @@ mv nfc hardware/samsung
 echo 'Cloning Samsung_Slsi and Linaro BSP repos [6/7]'
 # SLSI Sepolicy
 rm -rf device/samsung_slsi/sepolicy
-git clone https://github.com/linux4-bringup-priv/android_device_samsung_slsi_sepolicy -b lineage-21.0 device/samsung_slsi/sepolicy
+git clone https://github.com/ElixirOS-982x/android_device_samsung_slsi_sepolicy -b lineage-21.0 device/samsung_slsi/sepolicy
 # Linaro BSP
 rm -rf hardware/samsung_slsi-linaro
 git clone https://github.com/linux4-bringup-priv/android_hardware_samsung_slsi-linaro_graphics.git -b lineage-21.0 hardware/samsung_slsi-linaro/graphics
