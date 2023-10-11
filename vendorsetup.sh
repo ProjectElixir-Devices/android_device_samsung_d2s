@@ -9,7 +9,7 @@ git clone https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos98
 echo 'Cloning Common Tree [2/7]'
 # Common tree for exynos9820-common
 rm -rf device/samsung/exynos9820-common
-git clone https://github.com/ProjectElixir-Devices/android_device_samsung_exynos9820-common -b ELIXIR-14 device/samsung/exynos9820-common
+git clone https://github.com/ProjectElixir-Devices/android_device_samsung_exynos9820-common device/samsung/exynos9820-common
 
 echo 'Cloning Device Tree [3/7]'
 # Device tree for d2s
