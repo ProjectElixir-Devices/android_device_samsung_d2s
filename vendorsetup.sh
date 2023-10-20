@@ -4,7 +4,7 @@ echo 'Starting Cloning repos for d2s'
 echo 'Cloning Kernel tree [1/7]'
 # Kernel for exynos9820
 rm -rf kernel/samsung/exynos9820
-git clone https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820 -b lineage-20.0 kernel/samsung/exynos9820
+git clone https://github.com/LineageOS/android_kernel_samsung_exynos9820 kernel/samsung/exynos9820
 
 echo 'Cloning Common Tree [2/7]'
 # Common tree for exynos9820-common
