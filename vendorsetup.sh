@@ -19,9 +19,9 @@ git clone https://github.com/ProjectElixir-Devices/android_device_samsung_d2s de
 echo 'Cloning Vendor Trees [4/7]'
 # Vendor blobs for d2s
 rm -rf vendor/samsung/d2s
-git clone https://github.com/BananaDroid-exynos9820/android_vendor_samsung_d2s -b lineage-20.0 vendor/samsung/d2s
+git clone https://github.com/BananaDroid-exynos9820/android_vendor_samsung_d2s vendor/samsung/d2s
 rm -rf vendor/samsung/exynos9820-common
-git clone https://github.com/BananaDroid-exynos9820/android_vendor_samsung_exynos9820-common -b lineage-21.0 vendor/samsung/exynos9820-common
+git clone https://github.com/BananaDroid-exynos9820/android_vendor_samsung_exynos9820-common vendor/samsung/exynos9820-common
 
 echo 'Cloning Hardware Samsung [5/7]'
 # Hardware OSS parts for Samsung
