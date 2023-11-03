@@ -27,7 +27,7 @@ echo 'Cloning Hardware Samsung [5/7]'
 # Hardware OSS parts for Samsung
 mv hardware/samsung/nfc .
 rm -rf hardware/samsung
-git clone https://github.com/ElixirOS-982x/hardware_samsung -b evo hardware/samsung
+git clone https://github.com/bananadroid/android_hardware_samsung -b 13 hardware/samsung
 mv nfc hardware/samsung
 
 echo 'Cloning Samsung_Slsi and Linaro BSP repos [6/7]'
@@ -46,6 +46,3 @@ echo 'Cloning Sepolicy Dependency repo [7/7]'
 # Sepolicy
 rm -rf device/aosp/sepolicy
 git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy device/aosp/sepolicy
-
-rm -rf packages/apps/Nfc
-git clone https://github.com/CherishOS/android_packages_apps_Nfc.git packages/apps/Nfc
