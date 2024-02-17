@@ -4,12 +4,12 @@ echo 'Starting Cloning repos for d2s'
 echo 'Cloning Kernel tree [1/7]'
 # Kernel for exynos9820
 rm -rf kernel/samsung/exynos9820
-git clone https://github.com/CherishOS-exynos9820/android_kernel_samsung_exynos9820 -b lineage-21.0 kernel/samsung/exynos9820
+git clone https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820 -b lineage-21.0 kernel/samsung/exynos9820
 
 echo 'Cloning Common Tree [2/7]'
 # Common tree for exynos9820-common
 rm -rf device/samsung/exynos9820-common
-git clone https://github.com/elixir982x/android_device_samsung_exynos9820-common -b ELIXIR-14 device/samsung/exynos9820-common
+git clone https://github.com/ProjectElixir-Devices/android_device_samsung_exynos9820-common -b ELIXIR-14 device/samsung/exynos9820-common
 
 echo 'Cloning Device Tree [3/7]'
 # Device tree for d2s
